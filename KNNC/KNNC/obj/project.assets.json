@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Cagatay\\Documents\\GitHub\\Knn-final\\KNN\\KNN\\KNN.csproj",
-      "projectName": "KNN",
-      "projectPath": "C:\\Users\\Cagatay\\Documents\\GitHub\\Knn-final\\KNN\\KNN\\KNN.csproj",
+      "projectUniqueName": "C:\\Users\\Cagatay\\Desktop\\KNNC\\KNNC\\KNNC.csproj",
+      "projectName": "KNNC",
+      "projectPath": "C:\\Users\\Cagatay\\Desktop\\KNNC\\KNNC\\KNNC.csproj",
       "packagesPath": "C:\\Users\\Cagatay\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Cagatay\\Documents\\GitHub\\Knn-final\\KNN\\KNN\\obj\\",
+      "outputPath": "C:\\Users\\Cagatay\\Desktop\\KNNC\\KNNC\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Cagatay\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -62,9 +62,6 @@
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
-          },
-          "Microsoft.WindowsDesktop.App.WindowsForms": {
-            "privateAssets": "none"
           }
         },
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"

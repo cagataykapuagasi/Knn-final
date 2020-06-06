@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CMcqyZBhHnKgslKwcAvD5Pw9jXbdnikBrPmGhZ9V0r+JJvjmsCAzk2RL6rgOWfFoFDz5W4lXJynnynDTXgmV4A==",
+  "dgSpecHash": "vgGG0A6CMeKg8TYt9KbZP8VHYQw9Fvho6jo6hFGTVkEwwuVnaHTJUfdZGeu0BzakUMxGUA06XQxDYFGfIBrmBg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Cagatay\\Documents\\GitHub\\Knn-final\\KNN\\KNN\\KNN.csproj",
+  "projectFilePath": "C:\\Users\\Cagatay\\Desktop\\KNNC\\KNNC\\KNNC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Cagatay\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
   ],
