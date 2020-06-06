@@ -6,6 +6,8 @@ namespace KNNC
     {
         static void Main(string[] args)
         {
+
+            Data data = new Data();
             Console.WriteLine("Hello World!");
         }
     }

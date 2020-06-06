@@ -1,0 +1,12 @@
+/Users/cagataykapuagasi/Desktop/Knn-final/KNNC/KNNC/bin/Debug/netcoreapp3.1/KNNC.deps.json
+/Users/cagataykapuagasi/Desktop/Knn-final/KNNC/KNNC/bin/Debug/netcoreapp3.1/KNNC.runtimeconfig.json
+/Users/cagataykapuagasi/Desktop/Knn-final/KNNC/KNNC/bin/Debug/netcoreapp3.1/KNNC.runtimeconfig.dev.json
+/Users/cagataykapuagasi/Desktop/Knn-final/KNNC/KNNC/bin/Debug/netcoreapp3.1/KNNC.dll
+/Users/cagataykapuagasi/Desktop/Knn-final/KNNC/KNNC/bin/Debug/netcoreapp3.1/KNNC.pdb
+/Users/cagataykapuagasi/Desktop/Knn-final/KNNC/KNNC/obj/Debug/netcoreapp3.1/KNNC.csprojAssemblyReference.cache
+/Users/cagataykapuagasi/Desktop/Knn-final/KNNC/KNNC/obj/Debug/netcoreapp3.1/KNNC.csproj.CoreCompileInputs.cache
+/Users/cagataykapuagasi/Desktop/Knn-final/KNNC/KNNC/obj/Debug/netcoreapp3.1/KNNC.AssemblyInfoInputs.cache
+/Users/cagataykapuagasi/Desktop/Knn-final/KNNC/KNNC/obj/Debug/netcoreapp3.1/KNNC.AssemblyInfo.cs
+/Users/cagataykapuagasi/Desktop/Knn-final/KNNC/KNNC/obj/Debug/netcoreapp3.1/KNNC.dll
+/Users/cagataykapuagasi/Desktop/Knn-final/KNNC/KNNC/obj/Debug/netcoreapp3.1/KNNC.pdb
+/Users/cagataykapuagasi/Desktop/Knn-final/KNNC/KNNC/obj/Debug/netcoreapp3.1/KNNC.genruntimeconfig.cache

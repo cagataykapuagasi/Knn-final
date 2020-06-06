@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Cagatay\\Desktop\\KNNC\\KNNC\\KNNC.csproj": {}
+    "/Users/cagataykapuagasi/Desktop/Knn-final/KNNC/KNNC/KNNC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Cagatay\\Desktop\\KNNC\\KNNC\\KNNC.csproj": {
+    "/Users/cagataykapuagasi/Desktop/Knn-final/KNNC/KNNC/KNNC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Cagatay\\Desktop\\KNNC\\KNNC\\KNNC.csproj",
+        "projectUniqueName": "/Users/cagataykapuagasi/Desktop/Knn-final/KNNC/KNNC/KNNC.csproj",
         "projectName": "KNNC",
-        "projectPath": "C:\\Users\\Cagatay\\Desktop\\KNNC\\KNNC\\KNNC.csproj",
-        "packagesPath": "C:\\Users\\Cagatay\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Cagatay\\Desktop\\KNNC\\KNNC\\obj\\",
+        "projectPath": "/Users/cagataykapuagasi/Desktop/Knn-final/KNNC/KNNC/KNNC.csproj",
+        "packagesPath": "/Users/cagataykapuagasi/.nuget/packages/",
+        "outputPath": "/Users/cagataykapuagasi/Desktop/Knn-final/KNNC/KNNC/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Cagatay\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/cagataykapuagasi/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -47,18 +45,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.2, 3.1.2]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.200/RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{8758FA3C-B534-4F77-B868-D6764AE1FEB3}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="KNNC/Program.cs">
+    <Files>
+      <File FileName="KNNC/Data.cs" Line="12" Column="34" />
+      <File FileName="KNNC/Program.cs" Line="10" Column="36" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="KNNC" expanded="True">
+            <Node name="KNNC" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.KNNC PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>
