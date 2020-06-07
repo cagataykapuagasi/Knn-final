@@ -8,7 +8,8 @@ namespace KNNC
     {
         public string hotelId;
         public double  style, cleaning, food, service, price, location, parking;
-
+        public List<double> fields = new List<double>();
+        public double cosValue;
         public Rating(string hotelId, double style, double cleaning, double food, double service, double price, double location, double parking)
         {
             this.hotelId = hotelId;
@@ -19,6 +20,14 @@ namespace KNNC
             this.price = price;
             this.location = location;
             this.parking = parking;
+
+            fields.Add(style);
+            fields.Add(cleaning);
+            fields.Add(food);
+            fields.Add(service);
+            fields.Add(price);
+            fields.Add(location);
+            fields.Add(parking);
         }
     }
 
@@ -63,7 +72,6 @@ namespace KNNC
                 result = int.Parse(r) * 1.0 / 10;
             }
 
-            Console.WriteLine(result);
             return result;
         }
     }
