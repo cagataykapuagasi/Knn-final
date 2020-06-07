@@ -4,13 +4,13 @@ using System.IO;
 
 namespace KNNC
 {
-    public class Rating
+    public class Rating //oteller için nesne
     {
         public string hotelId;
         public double  style, cleaning, food, service, price, location, parking;
-        public List<double> fields = new List<double>();
+        public List<double> fields = new List<double>(); //değerlerin listesi
         public double cosValue;
-        public Rating(string hotelId, double style, double cleaning, double food, double service, double price, double location, double parking)
+        public Rating(string hotelId, double style, double cleaning, double food, double service, double price, double location, double parking) 
         {
             this.hotelId = hotelId;
             this.style = style;
@@ -35,7 +35,7 @@ namespace KNNC
 
     public class Data
     {
-        public static List<Rating> ratingSet = new List<Rating>();
+        public static List<Rating> ratingSet = new List<Rating>(); //otellerin listesi
 
         public Data()
         {
@@ -52,7 +52,7 @@ namespace KNNC
             {
                 String[] array = line.Split(','); //virgülden sonra ayrım
 
-                Rating r = new Rating(array[0], parseFloat(array[1]), parseFloat(array[2]),
+                Rating r = new Rating(array[0], parseFloat(array[1]), parseFloat(array[2]), //nesneye atmak
                 parseFloat(array[3]), parseFloat(array[4]), parseFloat(array[5]), parseFloat(array[6]), parseFloat(array[7]));
 
                 ratingSet.Add(r);
@@ -63,7 +63,7 @@ namespace KNNC
 
         }
 
-        double parseFloat(string r)
+        double parseFloat(string r) //string ifadeyi double a çevirmek, ? ise en düşük değer olan 1 i vermek
         {
             double result = 1;
 

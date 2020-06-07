@@ -15,16 +15,6 @@ namespace KNNC
             Data data = new Data();
             Knn knn = new Knn();
 
-            List<double> testList = new List<double>();
-
-            testList.Add(0.5);
-            testList.Add(0.7);
-            testList.Add(0.8);
-            testList.Add(0.3);
-            testList.Add(0.2);
-            testList.Add(0.8);
-            testList.Add(0.9);
-
             init();
 
             results = knn.calculateKnn(fields, k);
@@ -65,7 +55,7 @@ namespace KNNC
                 Console.WriteLine(r.hotelId + " - " + r.cosValue);
             }
         }
-        static void init()
+        static void init() //tek tek tüm değerlerin sorulması ve k nin sorulması
         {
             Console.WriteLine("Lütfen değerleri 0-10 arası bir değerde puanlayınız.");
             askField("ortam_��kl���");
@@ -77,22 +67,22 @@ namespace KNNC
             askField("ara�_park_olana��");
             askK();
         }
-        static void again()
+        static void again()//kullanıcı tekrar baştan başlamak istediğinde
         {
             Console.WriteLine("Lütfen kıstas tercih puanlarınızı gözden geçirip yenileyiniz");
             init();
         }
 
-        static void askField(string field)
+        static void askField(string field) //satırdaki değerlerin sorulması
         {
             Console.WriteLine(field + " değerini girin");
 
-            string ifield = Console.ReadLine();
+            string ifield = Console.ReadLine(); //okunması
 
             try
             {
-                double dfield = int.Parse(ifield) * 1.0 / 10;
-                if(int.Parse(ifield) < 1)
+                double dfield = int.Parse(ifield) * 1.0 / 10; //girilen değerin 10 tabanına çevrimi
+                if(int.Parse(ifield) < 1) //koşulların sorulması
                 {
                     Console.WriteLine("Değerlendirme 1 den düşük olamaz");
                     return;
@@ -111,7 +101,7 @@ namespace KNNC
             }
         }
 
-        static void askK()
+        static void askK()//k değerinin sorulması ve benzer sorgular
         {
             Console.WriteLine("Kaç tane restoran önerisi istiyorsunuz ?");
             string field = Console.ReadLine();

@@ -16,7 +16,7 @@ namespace KNNC
         {
             ratingSet.AddRange(Data.ratingSet);
 
-            foreach(Rating r in ratingSet)
+            foreach(Rating r in ratingSet) //otellerle kullanıcının girdiği değerlerde hesaplama
             {
                 r.cosValue = calculateCos(fields, r.fields);
             }
@@ -27,7 +27,7 @@ namespace KNNC
 
             resultSet.AddRange(ratingSet.GetRange(0, k));
 
-            for (int i = k; i < ratingSet.Count; i++) //en yüksek değer kullanıcının istediği adetten fazla çıkarsa, diğer en yüksek değerler de sonuç listesine eklenir.
+            for (int i = k; i < ratingSet.Count; i++) //en yüksek değer kullanıcının istediği adetten fazla çıkarsa, diğer en yüksek değerler de sonuç listesine eklenir
             {
                 if (ratingSet[k].cosValue == ratingSet[0].cosValue)
                 {
@@ -39,17 +39,10 @@ namespace KNNC
                 }
             }
 
-            foreach (Rating r in ratingSet)
-            {
-                //Console.WriteLine(r.cosValue);
-            }
-
-            //Console.WriteLine(ratingSet.Count);
-
             return resultSet;
         }
 
-        public double calculateCos(List<double> fields1, List<double> fields2)
+        public double calculateCos(List<double> fields1, List<double> fields2) //2 adet listedeki değerlendirmelerin kosinüs benzerliğini bulmak
         {
             double part1 = 0, part2, d1 = 0, d2 = 0;
 
