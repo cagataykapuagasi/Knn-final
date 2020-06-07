@@ -6,9 +6,10 @@ namespace KNNC
 {
     public class Rating
     {
-        public string hotelId, style, cleaning, food, service, price, location, parking;
+        public string hotelId;
+        public double  style, cleaning, food, service, price, location, parking;
 
-        public Rating(string hotelId, string style, string cleaning, string food, string service, string price, string location, string parking)
+        public Rating(string hotelId, double style, double cleaning, double food, double service, double price, double location, double parking)
         {
             this.hotelId = hotelId;
             this.style = style;
@@ -42,8 +43,8 @@ namespace KNNC
             {
                 String[] array = line.Split(','); //virgülden sonra ayrım
 
-                Rating r = new Rating(array[0], array[1], array[2],
-                array[3], array[4], array[5], array[6], array[7]);
+                Rating r = new Rating(array[0], parseFloat(array[1]), parseFloat(array[2]),
+                parseFloat(array[3]), parseFloat(array[4]), parseFloat(array[5]), parseFloat(array[6]), parseFloat(array[7]));
 
                 ratingSet.Add(r);
             }
@@ -51,6 +52,19 @@ namespace KNNC
 
 
 
+        }
+
+        double parseFloat(string r)
+        {
+            double result = 0;
+
+            if(r != "?")
+            {
+                result = int.Parse(r) * 1.0 / 10;
+            }
+
+            Console.WriteLine(result);
+            return result;
         }
     }
 }
