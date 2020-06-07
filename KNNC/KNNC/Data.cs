@@ -25,7 +25,7 @@ namespace KNNC
 
     public class Data
     {
-        public List<Rating> ratingSet = new List<Rating>();
+        public static List<Rating> ratingSet = new List<Rating>();
 
         public Data()
         {
