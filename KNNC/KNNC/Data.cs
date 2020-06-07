@@ -65,7 +65,7 @@ namespace KNNC
 
         double parseFloat(string r)
         {
-            double result = 0;
+            double result = 1;
 
             if(r != "?")
             {

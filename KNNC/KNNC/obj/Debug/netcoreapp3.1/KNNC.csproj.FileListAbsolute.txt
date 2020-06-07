@@ -10,3 +10,16 @@
 /Users/cagataykapuagasi/Desktop/Knn-final/KNNC/KNNC/obj/Debug/netcoreapp3.1/KNNC.dll
 /Users/cagataykapuagasi/Desktop/Knn-final/KNNC/KNNC/obj/Debug/netcoreapp3.1/KNNC.pdb
 /Users/cagataykapuagasi/Desktop/Knn-final/KNNC/KNNC/obj/Debug/netcoreapp3.1/KNNC.genruntimeconfig.cache
+C:\Users\Cagatay\Documents\GitHub\Knn-final\KNNC\KNNC\bin\Debug\netcoreapp3.1\KNNC.exe
+C:\Users\Cagatay\Documents\GitHub\Knn-final\KNNC\KNNC\bin\Debug\netcoreapp3.1\KNNC.deps.json
+C:\Users\Cagatay\Documents\GitHub\Knn-final\KNNC\KNNC\bin\Debug\netcoreapp3.1\KNNC.runtimeconfig.json
+C:\Users\Cagatay\Documents\GitHub\Knn-final\KNNC\KNNC\bin\Debug\netcoreapp3.1\KNNC.runtimeconfig.dev.json
+C:\Users\Cagatay\Documents\GitHub\Knn-final\KNNC\KNNC\bin\Debug\netcoreapp3.1\KNNC.dll
+C:\Users\Cagatay\Documents\GitHub\Knn-final\KNNC\KNNC\bin\Debug\netcoreapp3.1\KNNC.pdb
+C:\Users\Cagatay\Documents\GitHub\Knn-final\KNNC\KNNC\obj\Debug\netcoreapp3.1\KNNC.csprojAssemblyReference.cache
+C:\Users\Cagatay\Documents\GitHub\Knn-final\KNNC\KNNC\obj\Debug\netcoreapp3.1\KNNC.AssemblyInfoInputs.cache
+C:\Users\Cagatay\Documents\GitHub\Knn-final\KNNC\KNNC\obj\Debug\netcoreapp3.1\KNNC.AssemblyInfo.cs
+C:\Users\Cagatay\Documents\GitHub\Knn-final\KNNC\KNNC\obj\Debug\netcoreapp3.1\KNNC.csproj.CoreCompileInputs.cache
+C:\Users\Cagatay\Documents\GitHub\Knn-final\KNNC\KNNC\obj\Debug\netcoreapp3.1\KNNC.dll
+C:\Users\Cagatay\Documents\GitHub\Knn-final\KNNC\KNNC\obj\Debug\netcoreapp3.1\KNNC.pdb
+C:\Users\Cagatay\Documents\GitHub\Knn-final\KNNC\KNNC\obj\Debug\netcoreapp3.1\KNNC.genruntimeconfig.cache
