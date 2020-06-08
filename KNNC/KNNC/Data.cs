@@ -40,25 +40,34 @@ namespace KNNC
         public Data()
         {
 
-
-            var rating = File.ReadLines("restoran-oneri.txt"); //veriler okundu
-            List<string> ratingList = new List<string>();
-
-            ratingList.AddRange(rating);
-
-            ratingList.RemoveAt(0); //datanın ilk satırının atılması
-
-            foreach (string line in ratingList)
+            try
             {
-                String[] array = line.Split(','); //virgülden sonra ayrım
 
-                Rating r = new Rating(array[0], parseFloat(array[1]), parseFloat(array[2]), //nesneye atmak
-                parseFloat(array[3]), parseFloat(array[4]), parseFloat(array[5]), parseFloat(array[6]), parseFloat(array[7]));
 
-                ratingSet.Add(r);
+                var rating = File.ReadLines("restoran-oneri.txt"); //veriler okundu
+                List<string> ratingList = new List<string>();
+
+                ratingList.AddRange(rating);
+
+                ratingList.RemoveAt(0); //datanın ilk satırının atılması
+
+                foreach (string line in ratingList)
+                {
+                    String[] array = line.Split(','); //virgülden sonra ayrım
+
+                    Rating r = new Rating(array[0], parseFloat(array[1]), parseFloat(array[2]), //nesneye atmak
+                    parseFloat(array[3]), parseFloat(array[4]), parseFloat(array[5]), parseFloat(array[6]), parseFloat(array[7]));
+
+                    ratingSet.Add(r);
+                }
             }
 
+            catch (Exception e)
+            {
+                Console.WriteLine("Hata: " + e.Message);
 
+                Environment.Exit(0);  //hata olma durumunda işlemlerin devam etmemesi için
+            }
 
 
         }
